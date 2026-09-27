@@ -1,0 +1,13 @@
+Genre,Number_of_Games,Total_Global_Sales,Average_Global_Sales,Maximum_Global_Sales
+Action,3251,1722.84,0.53,21.4
+Sports,2304,1309.24,0.57,82.74
+Shooter,1282,1026.2,0.8,28.31
+Role-Playing,1470,923.83,0.63,31.37
+Platform,875,829.13,0.95,40.24
+Misc,1686,789.87,0.47,29.02
+Racing,1225,726.76,0.59,35.82
+Fighting,836,444.05,0.53,13.04
+Simulation,848,389.98,0.46,24.76
+Puzzle,570,242.21,0.42,30.26
+Adventure,1274,234.59,0.18,11.18
+Strategy,670,173.27,0.26,5.45

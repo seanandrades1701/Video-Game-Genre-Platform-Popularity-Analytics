@@ -1,0 +1,577 @@
+Publisher,Number_of_Games,Total_Global_Sales,Average_Global_Sales,Maximum_Global_Sales
+Nintendo,696,1784.43,2.56,82.74
+Electronic Arts,1339,1093.39,0.82,8.49
+Activision,966,721.41,0.75,14.76
+Sony Computer Entertainment,682,607.28,0.89,14.98
+Ubisoft,918,473.54,0.52,10.26
+Take-Two Interactive,412,399.3,0.97,21.4
+THQ,712,340.44,0.48,3.58
+Konami Digital Entertainment,823,278.56,0.34,6.05
+Sega,632,270.7,0.43,8.06
+Namco Bandai Games,928,253.65,0.27,4.24
+Microsoft Game Studios,189,245.79,1.3,21.82
+Capcom,376,199.95,0.53,6.3
+Atari,347,146.77,0.42,7.81
+Square Enix,231,144.73,0.63,5.95
+Warner Bros. Interactive Entertainment,217,142.34,0.66,5.53
+Disney Interactive Studios,214,118.76,0.55,3.16
+Eidos Interactive,196,96.75,0.49,5.24
+LucasArts,89,84.95,0.95,5.83
+Bethesda Softworks,69,81.53,1.18,8.84
+Midway Games,196,69.29,0.35,2.52
+Acclaim Entertainment,184,64.14,0.35,3.36
+SquareSoft,52,57.65,1.11,7.86
+Vivendi Games,161,56.93,0.35,4.7
+505 Games,192,55.91,0.29,6.81
+Tecmo Koei,338,53.55,0.16,2.11
+Codemasters,150,47.77,0.32,2.87
+Virgin Interactive,62,43.87,0.71,5.82
+Enix Corporation,30,33.74,1.12,4.47
+Deep Silver,121,25.59,0.21,2.39
+GT Interactive,45,25.23,0.56,6.27
+D3Publisher,183,24.06,0.13,1.7
+Sony Computer Entertainment Europe,15,23.89,1.59,5.99
+Hudson Soft,81,23.01,0.28,1.5
+MTV Games,40,18.86,0.47,3.19
+Universal Interactive,22,17.6,0.8,5.42
+Banpresto,73,17.4,0.24,1.7
+Rising Star Games,85,17.27,0.2,1.44
+Infogrames,61,16.18,0.27,2.05
+Majesco Entertainment,90,15.81,0.18,2.88
+Hasbro Interactive,16,15.22,0.95,4.16
+Nippon Ichi Software,104,13.98,0.13,0.71
+Unknown,100,13.64,0.14,1.84
+989 Studios,14,13.32,0.95,2.31
+Zoo Digital Publishing,104,12.87,0.12,1.17
+Atlus,67,12.74,0.19,1.38
+Level 5,27,12.17,0.45,2.68
+Empire Interactive,51,11.14,0.22,1.15
+ASCII Entertainment,20,10.89,0.54,2.09
+3DO,36,10.12,0.28,1.28
+Crave Entertainment,71,9.93,0.14,1.5
+RedOctane,4,8.68,2.17,5.12
+TDK Mediactive,36,8.31,0.23,1.33
+Mindscape,32,7.74,0.24,2.09
+Global Star,39,7.65,0.2,1.59
+Focus Home Interactive,56,7.44,0.13,1.23
+Fox Interactive,8,7.39,0.92,3.56
+Psygnosis,32,7.27,0.23,1.17
+Activision Value,29,6.96,0.24,1.7
+Ignition Entertainment,59,6.66,0.11,0.56
+Interplay,30,6.66,0.22,0.83
+SouthPeak Games,37,6.35,0.17,1.2
+Spike,37,6.15,0.17,0.72
+Red Orb,2,5.24,2.62,2.81
+Parker Bros.,7,4.97,0.71,2.2
+Tomy Corporation,18,4.97,0.28,1.02
+BAM! Entertainment,35,4.95,0.14,0.45
+Imagic,4,4.82,1.2,2.13
+Zoo Games,33,4.82,0.15,1.31
+Arena Entertainment,2,4.72,2.36,2.67
+Koch Media,17,4.71,0.28,0.95
+City Interactive,18,4.58,0.25,1.16
+Ubisoft Annecy,14,4.46,0.32,0.86
+Nordic Games,35,4.44,0.13,0.78
+Destineer,45,4.36,0.1,0.55
+Play It,14,4.31,0.31,1.06
+PQube,39,4.27,0.11,0.58
+Marvelous Interactive,56,4.17,0.07,0.31
+Palcom,1,4.17,4.17,4.17
+ChunSoft,18,4.07,0.23,0.81
+Idea Factory,128,4.01,0.03,0.19
+Game Factory,32,3.79,0.12,0.93
+Kadokawa Shoten,50,3.77,0.08,0.55
+Gotham Games,7,3.72,0.53,1.57
+Natsume,17,3.69,0.22,1.25
+GSP,16,3.69,0.23,1.06
+Square,6,3.64,0.61,1.77
+Ocean,14,3.61,0.26,1.17
+DTP Entertainment,44,3.57,0.08,0.27
+Sony Online Entertainment,8,3.53,0.44,1.28
+SCi,17,3.52,0.21,0.87
+Mattel Interactive,12,3.51,0.29,0.67
+Takara,16,3.45,0.22,0.56
+Oxygen Interactive,21,3.45,0.16,1.68
+Maxis,3,3.39,1.13,2.14
+Titus,19,3.32,0.17,0.92
+Valve Software,3,3.23,1.08,2.1
+GungHo,13,3.15,0.24,1.51
+Coleco,5,3.06,0.61,1.46
+Human Entertainment,13,3.0,0.23,0.39
+Avanquest,25,2.94,0.12,0.39
+Scholastic Inc.,10,2.91,0.29,0.83
+Mojang,5,2.89,0.58,0.91
+Black Bean Games,30,2.87,0.1,0.38
+Taito,19,2.84,0.15,1.09
+JVC,8,2.8,0.35,2.4
+Sammy Corporation,11,2.73,0.25,1.0
+Telltale Games,25,2.72,0.11,0.45
+Midas Interactive Entertainment,24,2.72,0.11,0.51
+Takara Tomy,37,2.7,0.07,0.37
+Ghostlight,14,2.67,0.19,0.63
+Imagineer,16,2.65,0.17,0.54
+Alchemist,43,2.63,0.06,1.22
+SNK,22,2.59,0.12,0.25
+NCSoft,6,2.59,0.43,2.3
+Rondomedia,14,2.58,0.18,0.65
+Compile,6,2.46,0.41,1.15
+Marvelous Entertainment,12,2.33,0.19,0.91
+Red Storm Entertainment,3,2.32,0.77,1.64
+UEP Systems,1,2.25,2.25,2.25
+Mastiff,16,2.23,0.14,0.44
+Enterbrain,15,2.23,0.15,0.55
+Kemco,21,2.22,0.11,0.4
+Video System,4,2.18,0.55,1.6
+Little Orbit,26,2.04,0.08,0.27
+ASC Games,3,2.02,0.67,1.31
+RTL,8,2.0,0.25,1.26
+Microprose,5,1.98,0.4,1.06
+Success,19,1.96,0.1,1.15
+Kalypso Media,26,1.95,0.08,0.3
+Agetec,8,1.94,0.24,1.08
+20th Century Fox Video Games,5,1.94,0.39,0.79
+Nobilis,13,1.94,0.15,0.77
+Jaleco,23,1.94,0.08,0.5
+Zushi Games,18,1.89,0.1,0.36
+Metro 3D,12,1.84,0.15,0.67
+Rocket Company,17,1.82,0.11,0.67
+System 3 Arcade Software,13,1.78,0.14,0.54
+Valve,1,1.74,1.74,1.74
+Mastertronic,13,1.73,0.13,1.18
+Crystal Dynamics,5,1.71,0.34,0.87
+Avanquest Software,9,1.69,0.19,0.79
+Hudson Entertainment,11,1.69,0.15,0.79
+Accolade,3,1.68,0.56,1.3
+Xplosiv,10,1.64,0.16,0.48
+From Software,15,1.63,0.11,0.28
+5pb,61,1.63,0.03,0.11
+Hello Games,1,1.6,1.6,1.6
+Touchstone,4,1.58,0.4,0.75
+PopCap Games,15,1.57,0.1,0.34
+LEGO Media,7,1.56,0.22,0.71
+Storm City Games,19,1.56,0.08,0.31
+Westwood Studios,1,1.55,1.55,1.55
+Laguna,4,1.55,0.39,0.56
+JoWood Productions,22,1.49,0.07,0.21
+Arc System Works,26,1.48,0.06,0.29
+Knowledge Adventure,4,1.47,0.37,0.44
+Genki,8,1.46,0.18,0.91
+XS Games,12,1.46,0.12,0.49
+Tigervision,3,1.42,0.47,0.69
+Pinnacle,5,1.42,0.28,0.88
+Rage Software,7,1.42,0.2,0.86
+Slightly Mad Studios,3,1.38,0.46,1.04
+GameMill Entertainment,8,1.38,0.17,0.46
+Compile Heart,20,1.37,0.07,0.2
+NewKidCo,9,1.33,0.15,0.31
+FuRyu,27,1.32,0.05,0.25
+Milestone S.r.l.,16,1.28,0.08,0.22
+Aqua Plus,23,1.25,0.05,0.14
+Brash Entertainment,10,1.23,0.12,0.35
+Russel,6,1.21,0.2,1.12
+Falcom Corporation,16,1.21,0.08,0.22
+Black Label Games,1,1.2,1.2,1.2
+Playlogic Game Factory,14,1.2,0.09,0.17
+Gathering of Developers,9,1.19,0.13,0.32
+Aruze Corp,3,1.18,0.39,0.54
+Sony Computer Entertainment America,3,1.18,0.39,0.65
+BMG Interactive Entertainment,7,1.18,0.17,0.58
+Jester Interactive,3,1.15,0.38,0.71
+Trion Worlds,4,1.15,0.29,0.57
+Gust,13,1.1,0.08,0.25
+Gremlin Interactive Ltd,9,1.1,0.12,0.2
+O-Games,17,1.08,0.06,0.12
+Mentor Interactive,5,1.07,0.21,0.41
+Acquire,13,1.07,0.08,0.14
+Epoch,7,1.05,0.15,0.45
+Telegames,8,1.03,0.13,0.42
+Big Ben Interactive,7,1.0,0.14,0.76
+SNK Playmore,18,0.96,0.05,0.28
+UFO Interactive,16,0.96,0.06,0.18
+IE Institute,5,0.96,0.19,0.66
+Broccoli,22,0.96,0.04,0.14
+Sunsoft,10,0.95,0.1,0.25
+Nippon Columbia,7,0.95,0.14,0.28
+DreamCatcher Interactive,17,0.95,0.06,0.14
+Jorudan,3,0.95,0.32,0.36
+Screenlife,6,0.92,0.15,0.41
+Funbox Media,6,0.91,0.15,0.68
+CTO SpA,2,0.9,0.45,0.88
+Xseed Games,4,0.9,0.22,0.55
+Victor Interactive,9,0.89,0.1,0.23
+"Destination Software, Inc",12,0.88,0.07,0.36
+Quelle,1,0.87,0.87,0.87
+TalonSoft,1,0.87,0.87,0.87
+"mixi, Inc",1,0.86,0.86,0.86
+Mud Duck Productions,3,0.85,0.28,0.42
+Ackkstudios,10,0.84,0.08,0.33
+Conspiracy Entertainment,14,0.84,0.06,0.27
+Bigben Interactive,13,0.84,0.06,0.13
+NovaLogic,3,0.82,0.27,0.46
+Mystique,1,0.82,0.82,0.82
+Square EA,1,0.8,0.8,0.8
+Harmonix Music Systems,2,0.8,0.4,0.43
+NEC Interchannel,8,0.78,0.1,0.25
+Men-A-Vision,1,0.77,0.77,0.77
+Nihon Falcom Corporation,7,0.77,0.11,0.29
+Paradox Interactive,23,0.76,0.03,0.14
+Pioneer LDC,4,0.74,0.18,0.41
+Gamebridge,2,0.73,0.36,0.52
+ArtDink,9,0.73,0.08,0.25
+Starfish,10,0.72,0.07,0.36
+Quest,1,0.71,0.71,0.71
+Data Age,2,0.71,0.36,0.39
+Illusion Softworks,1,0.7,0.7,0.7
+Sting,9,0.65,0.07,0.13
+Media Rings,3,0.65,0.22,0.36
+Wanadoo,5,0.65,0.13,0.46
+Astragon,6,0.64,0.11,0.19
+Elf,2,0.64,0.32,0.36
+Seta Corporation,6,0.63,0.1,0.21
+Universal Gamex,1,0.63,0.63,0.63
+Foreign Media Games,9,0.63,0.07,0.19
+Wizard Video Games,1,0.62,0.62,0.62
+Aspyr,8,0.62,0.08,0.2
+TDK Core,5,0.62,0.12,0.19
+Idea Factory International,6,0.61,0.1,0.17
+Prototype,27,0.61,0.02,0.05
+Nordcurrent,5,0.59,0.12,0.23
+Asylum Entertainment,6,0.59,0.1,0.19
+ESP,5,0.59,0.12,0.42
+Mumbo Jumbo,6,0.58,0.1,0.27
+Kadokawa Games,15,0.58,0.04,0.19
+CPG Products,1,0.54,0.54,0.54
+AQ Interactive,5,0.53,0.11,0.22
+BPS,2,0.52,0.26,0.32
+The Adventure Company,5,0.51,0.1,0.15
+Hect,3,0.5,0.17,0.27
+Answer Software,1,0.5,0.5,0.5
+Popcorn Arcade,10,0.49,0.05,0.16
+Rebellion,2,0.49,0.24,0.48
+Swing! Entertainment,6,0.48,0.08,0.14
+Avalon Interactive,6,0.48,0.08,0.17
+Pack In Soft,1,0.48,0.48,0.48
+Activision Blizzard,1,0.48,0.48,0.48
+Irem Software Engineering,12,0.46,0.04,0.07
+Valcon Games,8,0.45,0.06,0.11
+Home Entertainment Suppliers,4,0.45,0.11,0.34
+PlayV,4,0.44,0.11,0.18
+Aksys Games,8,0.44,0.06,0.12
+Shogakukan,5,0.44,0.09,0.2
+Angel Studios,3,0.44,0.15,0.29
+NEC,3,0.43,0.14,0.26
+Tetris Online,1,0.43,0.43,0.43
+TYO,1,0.42,0.42,0.42
+Jack of All Games,3,0.42,0.14,0.38
+Electronic Arts Victor,2,0.42,0.21,0.38
+bitComposer Games,5,0.41,0.08,0.19
+Magical Company,1,0.41,0.41,0.41
+P2 Games,3,0.4,0.13,0.32
+MTO,8,0.4,0.05,0.12
+NCS,3,0.4,0.13,0.2
+Microids,10,0.4,0.04,0.1
+ValuSoft,4,0.39,0.1,0.24
+989 Sports,1,0.38,0.38,0.38
+Blast! Entertainment Ltd,6,0.38,0.06,0.17
+Graffiti,6,0.38,0.06,0.13
+Hip Interactive,5,0.36,0.07,0.14
+Performance Designed Products,2,0.36,0.18,0.19
+New,1,0.36,0.36,0.36
+DSI Games,6,0.35,0.06,0.17
+Magix,2,0.35,0.18,0.31
+Time Warner Interactive,5,0.35,0.07,0.11
+ITT Family Games,1,0.34,0.34,0.34
+Reef Entertainment,7,0.34,0.05,0.12
+Benesse,6,0.33,0.06,0.1
+Cave,10,0.33,0.03,0.1
+U.S. Gold,4,0.33,0.08,0.13
+Starpath Corp.,1,0.33,0.33,0.33
+Yacht Club Games,3,0.32,0.11,0.13
+Evolved Games,8,0.32,0.04,0.09
+Indie Games,3,0.32,0.11,0.26
+Hackberry,7,0.31,0.04,0.09
+Neko Entertainment,7,0.31,0.04,0.16
+CBS Electronics,1,0.31,0.31,0.31
+CokeM Interactive,1,0.31,0.31,0.31
+Agatsuma Entertainment,3,0.31,0.1,0.2
+Mad Catz,3,0.3,0.1,0.2
+Game Life,2,0.3,0.15,0.17
+Rebellion Developments,2,0.3,0.15,0.2
+Hamster Corporation,2,0.3,0.15,0.28
+Media Factory,2,0.29,0.15,0.15
+Data Design Interactive,3,0.29,0.1,0.13
+Core Design Ltd.,2,0.29,0.15,0.19
+Wargaming.net,1,0.29,0.29,0.29
+Nichibutsu,1,0.28,0.28,0.28
+Playmates,1,0.28,0.28,0.28
+Excalibur Publishing,4,0.28,0.07,0.14
+Tru Blu Entertainment,8,0.28,0.03,0.12
+Daedalic,3,0.28,0.09,0.15
+Telstar,3,0.27,0.09,0.13
+Vic Tokai,2,0.27,0.14,0.15
+ASCII Media Works,9,0.27,0.03,0.05
+Liquid Games,2,0.27,0.14,0.26
+Syscom,2,0.27,0.14,0.16
+Culture Brain,4,0.27,0.07,0.2
+CyberFront,14,0.27,0.02,0.04
+Vir2L Studios,3,0.26,0.09,0.16
+Pacific Century Cyber Works,1,0.26,0.26,0.26
+Nippon Telenet,2,0.26,0.13,0.19
+Asgard,8,0.25,0.03,0.06
+Paon,6,0.25,0.04,0.1
+Axela,1,0.25,0.25,0.25
+Yeti,11,0.24,0.02,0.05
+Xing Entertainment,1,0.24,0.24,0.24
+American Softworks,1,0.23,0.23,0.23
+Asmik Ace Entertainment,3,0.23,0.08,0.1
+Essential Games,3,0.23,0.08,0.17
+Detn8 Games,1,0.23,0.23,0.23
+Daito,4,0.23,0.06,0.11
+System 3,3,0.22,0.07,0.16
+O3 Entertainment,3,0.22,0.07,0.11
+CCP,1,0.22,0.22,0.22
+Quinrose,14,0.22,0.02,0.03
+Bomb,1,0.22,0.22,0.22
+Vatical Entertainment,2,0.22,0.11,0.16
+Tommo,5,0.21,0.04,0.07
+On Demand,1,0.21,0.21,0.21
+Mercury Games,4,0.21,0.05,0.07
+Funcom,2,0.2,0.1,0.17
+CDV Software Entertainment,6,0.2,0.03,0.1
+Micro Cabin,3,0.2,0.07,0.1
+Merscom LLC,1,0.2,0.2,0.2
+Alternative Software,6,0.2,0.03,0.07
+Gamecock,4,0.2,0.05,0.07
+Phenomedia,4,0.19,0.05,0.06
+SSI,1,0.19,0.19,0.19
+Happinet,5,0.18,0.04,0.07
+Media Works,5,0.18,0.04,0.06
+DHM Interactive,3,0.18,0.06,0.12
+Adeline Software,1,0.17,0.17,0.17
+Asmik Corp,2,0.17,0.08,0.1
+Panther Software,1,0.17,0.17,0.17
+Tivola,3,0.17,0.06,0.07
+Sunrise Interactive,4,0.17,0.04,0.07
+Xicat Interactive,3,0.17,0.06,0.11
+Funsta,3,0.16,0.05,0.13
+White Park Bay Software,1,0.16,0.16,0.16
+Aques,1,0.16,0.16,0.16
+Slitherine Software,3,0.16,0.05,0.13
+Gainax Network Systems,2,0.16,0.08,0.11
+EA Games,1,0.15,0.15,0.15
+Comfort,6,0.15,0.02,0.05
+Data East,2,0.15,0.08,0.11
+Global A Entertainment,4,0.15,0.04,0.07
+General Entertainment,1,0.14,0.14,0.14
+Tripwire Interactive,1,0.14,0.14,0.14
+HMH Interactive,2,0.14,0.07,0.11
+Sony Music Entertainment,1,0.14,0.14,0.14
+Game Arts,1,0.14,0.14,0.14
+Imadio,1,0.14,0.14,0.14
+Kaga Create,6,0.14,0.02,0.05
+Daedalic Entertainment,3,0.14,0.05,0.07
+DreamWorks Interactive,1,0.13,0.13,0.13
+Moss,2,0.13,0.06,0.12
+Havas Interactive,1,0.13,0.13,0.13
+SCS Software,1,0.13,0.13,0.13
+Myelin Media,3,0.13,0.04,0.07
+responDESIGN,2,0.13,0.06,0.09
+Insomniac Games,3,0.12,0.04,0.06
+FunSoft,1,0.12,0.12,0.12
+Flight-Plan,2,0.12,0.06,0.08
+LSP Games,4,0.12,0.03,0.05
+SPS,1,0.12,0.12,0.12
+Bohemia Interactive,1,0.12,0.12,0.12
+NDA Productions,1,0.12,0.12,0.12
+T&E Soft,1,0.12,0.12,0.12
+Simon & Schuster Interactive,1,0.11,0.11,0.11
+Pack-In-Video,2,0.11,0.06,0.06
+TOHO,1,0.11,0.11,0.11
+Ascaron Entertainment GmbH,3,0.11,0.04,0.06
+10TACLE Studios,3,0.11,0.04,0.06
+Tradewest,3,0.11,0.04,0.05
+Gameloft,1,0.11,0.11,0.11
+PopTop Software,1,0.11,0.11,0.11
+dramatic create,5,0.11,0.02,0.03
+Interchannel,4,0.1,0.02,0.04
+Interplay Productions,1,0.1,0.1,0.1
+Image Epoch,1,0.1,0.1,0.1
+Enjoy Gaming ltd.,1,0.1,0.1,0.1
+inXile Entertainment,1,0.1,0.1,0.1
+PM Studios,1,0.1,0.1,0.1
+1C Company,3,0.1,0.03,0.05
+GameTek,1,0.1,0.1,0.1
+Type-Moon,1,0.1,0.1,0.1
+Creative Core,3,0.1,0.03,0.06
+TGL,4,0.1,0.02,0.03
+Edia,2,0.09,0.05,0.07
+Athena,2,0.09,0.05,0.07
+Phantom EFX,1,0.09,0.09,0.09
+Hearty Robin,1,0.09,0.09,0.09
+Culture Publishers,1,0.09,0.09,0.09
+Arika,3,0.09,0.03,0.05
+Griffin International,1,0.09,0.09,0.09
+Nippon Amuse,1,0.09,0.09,0.09
+Origin Systems,1,0.09,0.09,0.09
+Groove Games,2,0.09,0.04,0.06
+7G//AMES,4,0.08,0.02,0.03
+Crimson Cow,2,0.08,0.04,0.06
+MC2 Entertainment,3,0.08,0.03,0.04
+Flashpoint Games,2,0.08,0.04,0.04
+Seventh Chord,1,0.08,0.08,0.08
+Glams,1,0.08,0.08,0.08
+Mitsui,1,0.08,0.08,0.08
+Milestone,1,0.08,0.08,0.08
+Yuke's,3,0.08,0.03,0.03
+Cloud Imperium Games Corporation,2,0.08,0.04,0.04
+KID,4,0.08,0.02,0.03
+Iceberg Interactive,3,0.08,0.03,0.04
+Abylight,1,0.08,0.08,0.08
+Princess Soft,3,0.07,0.02,0.03
+Licensed 4U,3,0.07,0.02,0.03
+Coconuts Japan,2,0.07,0.04,0.05
+Evolution Games,1,0.07,0.07,0.07
+Encore,4,0.07,0.02,0.03
+Locus,1,0.07,0.07,0.07
+Elite,1,0.07,0.07,0.07
+Misawa,2,0.07,0.04,0.05
+Altron,1,0.07,0.07,0.07
+Aria,1,0.07,0.07,0.07
+Warp,1,0.07,0.07,0.07
+Revolution Software,2,0.07,0.03,0.06
+Imax,1,0.06,0.06,0.06
+iWin,1,0.06,0.06,0.06
+Yumedia,1,0.06,0.06,0.06
+Experience Inc.,3,0.06,0.02,0.04
+Office Create,2,0.06,0.03,0.03
+HAL Laboratory,1,0.06,0.06,0.06
+Virtual Play Games,2,0.06,0.03,0.04
+Zenrin,2,0.06,0.03,0.04
+Ecole,1,0.06,0.06,0.06
+Grand Prix Games,1,0.06,0.06,0.06
+Sonnet,2,0.06,0.03,0.04
+DigiCube,1,0.06,0.06,0.06
+Fortyfive,1,0.06,0.06,0.06
+Marvel Entertainment,1,0.05,0.05,0.05
+Mamba Games,2,0.05,0.02,0.03
+GN Software,3,0.05,0.02,0.03
+Pow,1,0.05,0.05,0.05
+Vap,1,0.05,0.05,0.05
+Phantagram,1,0.05,0.05,0.05
+WayForward Technologies,1,0.05,0.05,0.05
+Team17 Software,1,0.05,0.05,0.05
+Pony Canyon,1,0.05,0.05,0.05
+Ertain,1,0.05,0.05,0.05
+Alawar Entertainment,2,0.05,0.02,0.04
+System Soft,4,0.05,0.01,0.02
+MediaQuest,1,0.05,0.05,0.05
+Max Five,1,0.05,0.05,0.05
+The Learning Company,1,0.05,0.05,0.05
+Sweets,2,0.05,0.02,0.03
+Focus Multimedia,3,0.05,0.02,0.02
+TechnoSoft,1,0.05,0.05,0.05
+Easy Interactive,2,0.05,0.02,0.03
+Minato Station,3,0.05,0.02,0.02
+Monte Christo Multimedia,1,0.05,0.05,0.05
+Lexicon Entertainment,2,0.05,0.02,0.03
+Dusenberry Martin Racing,2,0.05,0.02,0.03
+Milestone S.r.l,2,0.05,0.02,0.04
+Navarre Corp,1,0.05,0.05,0.05
+Big Fish Games,2,0.05,0.02,0.03
+2D Boy,1,0.04,0.04,0.04
+Kool Kizz,1,0.04,0.04,0.04
+Devolver Digital,2,0.04,0.02,0.02
+Riverhillsoft,1,0.04,0.04,0.04
+Playmore,1,0.04,0.04,0.04
+Ivolgamus,1,0.04,0.04,0.04
+49Games,1,0.04,0.04,0.04
+Yamasa Entertainment,2,0.04,0.02,0.02
+imageepoch Inc.,2,0.04,0.02,0.03
+G.Rev,2,0.04,0.02,0.03
+MLB.com,1,0.04,0.04,0.04
+Gakken,2,0.04,0.02,0.02
+Alvion,2,0.04,0.02,0.02
+TopWare Interactive,2,0.04,0.02,0.03
+Legacy Interactive,1,0.04,0.04,0.04
+Societa,1,0.04,0.04,0.04
+Summitsoft,1,0.04,0.04,0.04
+Extreme Entertainment Group,1,0.03,0.03,0.03
+Fields,1,0.03,0.03,0.03
+ASK,1,0.03,0.03,0.03
+NetRevo,2,0.03,0.02,0.02
+Aerosoft,2,0.03,0.02,0.02
+id Software,1,0.03,0.03,0.03
+Kamui,1,0.03,0.03,0.03
+Views,2,0.03,0.02,0.02
+KSS,1,0.03,0.03,0.03
+Nexon,1,0.03,0.03,0.03
+Intergrow,1,0.03,0.03,0.03
+Paon Corporation,1,0.03,0.03,0.03
+Her Interactive,1,0.03,0.03,0.03
+Berkeley,1,0.03,0.03,0.03
+HuneX,2,0.03,0.02,0.02
+Just Flight,1,0.03,0.03,0.03
+FuRyu Corporation,1,0.03,0.03,0.03
+Number None,1,0.03,0.03,0.03
+Dorart,2,0.03,0.02,0.02
+Strategy First,1,0.03,0.03,0.03
+Tryfirst,1,0.03,0.03,0.03
+BushiRoad,1,0.03,0.03,0.03
+Blue Byte,2,0.03,0.02,0.02
+Datam Polystar,2,0.03,0.02,0.02
+Sunflowers,1,0.03,0.03,0.03
+Kids Station,1,0.03,0.03,0.03
+Kokopeli Digital Studios,1,0.03,0.03,0.03
+Kando Games,1,0.03,0.03,0.03
+Headup Games,1,0.03,0.03,0.03
+Cygames,1,0.03,0.03,0.03
+Maximum Family Games,1,0.03,0.03,0.03
+Fuji,1,0.03,0.03,0.03
+fonfun,1,0.02,0.02,0.02
+Lighthouse Interactive,1,0.02,0.02,0.02
+Marvelous Games,1,0.02,0.02,0.02
+Masque Publishing,1,0.02,0.02,0.02
+Visco,1,0.02,0.02,0.02
+King Records,1,0.02,0.02,0.02
+Sold Out,1,0.02,0.02,0.02
+Gaga,1,0.02,0.02,0.02
+Mycom,1,0.02,0.02,0.02
+Introversion Software,1,0.02,0.02,0.02
+Codemasters Online,1,0.02,0.02,0.02
+Warashi,1,0.02,0.02,0.02
+Nitroplus,2,0.02,0.01,0.01
+Phoenix Games,1,0.02,0.02,0.02
+Imageworks,1,0.02,0.02,0.02
+Plenty,1,0.02,0.02,0.02
+GOA,1,0.02,0.02,0.02
+Giga,1,0.02,0.02,0.02
+Technos Japan Corporation,1,0.02,0.02,0.02
+Giza10,1,0.02,0.02,0.02
+Saurus,1,0.02,0.02,0.02
+Karin Entertainment,1,0.02,0.02,0.02
+Mirai Shounen,1,0.02,0.02,0.02
+Graphsim Entertainment,1,0.02,0.02,0.02
+Quintet,1,0.02,0.02,0.02
+Revolution (Japan),1,0.02,0.02,0.02
+RED Entertainment,1,0.02,0.02,0.02
+Epic Games,1,0.01,0.01,0.01
+Interchannel-Holon,1,0.01,0.01,0.01
+Paradox Development,1,0.01,0.01,0.01
+New World Computing,1,0.01,0.01,0.01
+Ongakukan,1,0.01,0.01,0.01
+Piacci,1,0.01,0.01,0.01
+Inti Creates,1,0.01,0.01,0.01
+"Interworks Unlimited, Inc.",1,0.01,0.01,0.01
+Otomate,1,0.01,0.01,0.01
+Naxat Soft,1,0.01,0.01,0.01
+EON Digital Entertainment,1,0.01,0.01,0.01
+Boost On,1,0.01,0.01,0.01
+Rain Games,1,0.01,0.01,0.01
+Stainless Games,1,0.01,0.01,0.01
+Takuyo,1,0.01,0.01,0.01
+Michaelsoft,1,0.01,0.01,0.01
+Genterprise,1,0.01,0.01,0.01
+Media Entertainment,1,0.01,0.01,0.01
+Ascaron Entertainment,1,0.01,0.01,0.01
+Commseed,1,0.01,0.01,0.01
+UIG Entertainment,1,0.01,0.01,0.01
