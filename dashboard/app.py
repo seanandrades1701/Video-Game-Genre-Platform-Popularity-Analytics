@@ -171,16 +171,54 @@ html(f"""
         margin: 22px 0 12px 0;
     }}
 
-    /* ========================================================
+        /* ========================================================
        SIDEBAR WIDGETS
        ======================================================== */
+
+    /* Select / Multiselect */
+
+    div[data-baseweb="select"] {{
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }}
 
     div[data-baseweb="select"] > div {{
         background: {CARD} !important;
         border: 1px solid {BORDER} !important;
         border-radius: 10px !important;
         color: {TEXT} !important;
+        box-shadow: none !important;
+        outline: none !important;
     }}
+
+    /* Remove Streamlit/BaseWeb red/orange focus */
+
+    div[data-baseweb="select"] > div:focus {{
+        border-color: {GREEN} !important;
+        box-shadow: 0 0 0 1px {GREEN} !important;
+        outline: none !important;
+    }}
+
+    div[data-baseweb="select"] > div:focus-within {{
+        border-color: {GREEN} !important;
+        box-shadow: 0 0 0 1px {GREEN} !important;
+        outline: none !important;
+    }}
+
+    div[data-baseweb="select"]:focus-within {{
+        border-color: {GREEN} !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }}
+
+    /* Hover */
+
+    div[data-baseweb="select"] > div:hover {{
+        border-color: {GREEN_DARK} !important;
+    }}
+
+    /* Text */
 
     div[data-baseweb="select"] span {{
         color: {TEXT} !important;
@@ -188,15 +226,27 @@ html(f"""
 
     div[data-baseweb="select"] input {{
         color: {TEXT} !important;
+        caret-color: {GREEN} !important;
     }}
+
+    div[data-baseweb="select"] input::placeholder {{
+        color: {TEXT_MUTED} !important;
+        opacity: 1 !important;
+    }}
+
+    /* Dropdown */
 
     div[data-baseweb="popover"] {{
         background: {CARD_2} !important;
+        border: 1px solid {BORDER} !important;
     }}
 
     div[role="listbox"] {{
         background: {CARD_2} !important;
+        border: 1px solid {BORDER} !important;
     }}
+
+    /* Dropdown options */
 
     div[role="option"] {{
         background: {CARD_2} !important;
@@ -205,6 +255,12 @@ html(f"""
 
     div[role="option"]:hover {{
         background: {GREEN_DEEP} !important;
+        color: {GREEN_LIGHT} !important;
+    }}
+
+    div[role="option"][aria-selected="true"] {{
+        background: {GREEN_DEEP} !important;
+        color: {GREEN_LIGHT} !important;
     }}
 
     /* Multiselect tags */
@@ -219,14 +275,30 @@ html(f"""
         color: {GREEN_LIGHT} !important;
     }}
 
-    /* Slider */
+    span[data-baseweb="tag"] svg {{
+        fill: {GREEN_LIGHT} !important;
+        color: {GREEN_LIGHT} !important;
+    }}
+
+    /* ========================================================
+       SLIDER
+       ======================================================== */
 
     div[data-testid="stSlider"] {{
         padding-top: 5px;
     }}
 
     div[data-testid="stSlider"] [data-baseweb="slider"] {{
-        color: {GREEN};
+        color: {GREEN} !important;
+    }}
+
+    div[data-testid="stSlider"] [role="slider"] {{
+        background: {GREEN} !important;
+        border-color: {GREEN} !important;
+    }}
+
+    div[data-testid="stSlider"] [data-baseweb="slider"] > div > div {{
+        background: {GREEN} !important;
     }}
 
     /* ========================================================
