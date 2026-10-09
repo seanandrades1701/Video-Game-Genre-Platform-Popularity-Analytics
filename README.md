@@ -331,7 +331,7 @@ Other major genres include:
 
 ## 2. Platform Analysis
 
-Platforms are compared using:
+Platforms are compared Using:
 
 - Number of games
 - Total global sales
