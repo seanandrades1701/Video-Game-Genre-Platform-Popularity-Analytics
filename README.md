@@ -325,7 +325,7 @@ Other major genres include:
 - Role-Playing
 - Platform
 - Misc
-- Racing
+- Race
 
 ---
 
