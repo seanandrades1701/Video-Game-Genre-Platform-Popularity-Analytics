@@ -678,6 +678,7 @@ with st.sidebar:
             "Dashboard",
             "Analytics",
             "Dataset",
+            "Machine Learning",
             "About Project"
         ],
         key="navigation"
@@ -1667,6 +1668,302 @@ elif page == "Dataset":
 
     </div>
     """)
+
+
+
+
+# ============================================================
+# PAGE: MACHINE LEARNING
+# ============================================================
+
+elif page == "Machine Learning":
+
+    html("""
+    <div class="hero-section">
+        <div class="hero-eyebrow">ADVANCED ANALYTICS</div>
+        <h1 class="hero-title">
+            Machine Learning <span class="accent">Insights</span>
+        </h1>
+        <div class="hero-description">
+            Explore game clusters, compare regression models,
+            and evaluate sales category classification.
+        </div>
+    </div>
+    """)
+
+    # --------------------------------------------------------
+    # SECTION 1: K-MEANS CLUSTERING
+    # --------------------------------------------------------
+
+    html("""
+    <div class="section-title">K-Means Clustering</div>
+    <div class="section-description">
+        Discover groups of games based on regional sales patterns.
+    </div>
+    """)
+
+    cluster_profile_path = (
+        PROJECT_ROOT / "results" / "cluster_profiles.csv"
+    )
+
+    cluster_eval_path = (
+        PROJECT_ROOT / "results" / "clustering_evaluation.csv"
+    )
+
+    cluster_plot_path = (
+        PROJECT_ROOT / "visualizations"
+        / "cluster_visualization.png"
+    )
+
+    if cluster_profile_path.exists():
+
+        cluster_profiles = pd.read_csv(cluster_profile_path)
+
+        st.dataframe(
+            cluster_profiles,
+            use_container_width=True,
+            hide_index=True
+        )
+
+    else:
+        st.info("Cluster profiles have not been generated yet.")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        if cluster_eval_path.exists():
+
+            st.markdown("#### Cluster Evaluation")
+
+            st.dataframe(
+                pd.read_csv(cluster_eval_path),
+                use_container_width=True,
+                hide_index=True
+            )
+
+    with col2:
+
+        if cluster_plot_path.exists():
+
+            st.markdown("#### Cluster Visualization")
+
+            st.image(
+                str(cluster_plot_path),
+                use_container_width=True
+            )
+
+    # --------------------------------------------------------
+    # SECTION 2: REGRESSION MODEL COMPARISON
+    # --------------------------------------------------------
+
+    html("""
+    <div class="section-title">Regression Model Comparison</div>
+    <div class="section-description">
+        Compare Random Forest and Gradient Boosting using
+        MAE, RMSE, and R².
+    </div>
+    """)
+
+    regression_path = (
+        PROJECT_ROOT / "results"
+        / "regression_model_comparison.csv"
+    )
+
+    error_plot_path = (
+        PROJECT_ROOT / "visualizations"
+        / "regression_error_comparison.png"
+    )
+
+    r2_plot_path = (
+        PROJECT_ROOT / "visualizations"
+        / "regression_r2_comparison.png"
+    )
+
+    if regression_path.exists():
+
+        regression_df = pd.read_csv(regression_path)
+
+        st.dataframe(
+            regression_df,
+            use_container_width=True,
+            hide_index=True
+        )
+
+        st.caption(
+            "Random Forest performed slightly better on the "
+            "current test split, but both models have limited "
+            "predictive performance."
+        )
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+
+            if error_plot_path.exists():
+
+                st.image(
+                    str(error_plot_path),
+                    caption="MAE and RMSE Comparison",
+                    use_container_width=True
+                )
+
+        with col2:
+
+            if r2_plot_path.exists():
+
+                st.image(
+                    str(r2_plot_path),
+                    caption="R² Comparison",
+                    use_container_width=True
+                )
+
+    else:
+        st.info("Regression comparison results were not found.")
+
+    # --------------------------------------------------------
+    # SECTION 3: CLASSIFICATION RESULTS
+    # --------------------------------------------------------
+
+    html("""
+    <div class="section-title">Sales Category Classification</div>
+    <div class="section-description">
+        Evaluate the model's ability to classify games into
+        Low, Medium, High, and Very High sales categories.
+    </div>
+    """)
+
+    classification_metrics_path = (
+        PROJECT_ROOT / "results"
+        / "random_forest_classification_metrics.csv"
+    )
+
+    classification_report_path = (
+        PROJECT_ROOT / "results"
+        / "random_forest_classification_report.csv"
+    )
+
+    confusion_plot_path = (
+        PROJECT_ROOT / "visualizations"
+        / "random_forest_confusion_matrix.png"
+    )
+
+    importance_plot_path = (
+        PROJECT_ROOT / "visualizations"
+        / "random_forest_classification_feature_importance.png"
+    )
+
+    if classification_metrics_path.exists():
+
+        metrics_df = pd.read_csv(
+            classification_metrics_path
+        )
+
+        metric_values = dict(
+            zip(metrics_df["Metric"], metrics_df["Value"])
+        )
+
+        c1, c2, c3, c4 = st.columns(4)
+
+        c1.metric(
+            "Accuracy",
+            f"{metric_values.get('Accuracy', 0):.2%}"
+        )
+
+        c2.metric(
+            "Macro F1",
+            f"{metric_values.get('Macro_F1', 0):.2%}"
+        )
+
+        c3.metric(
+            "Macro Recall",
+            f"{metric_values.get('Macro_Recall', 0):.2%}"
+        )
+
+        c4.metric(
+            "Weighted F1",
+            f"{metric_values.get('Weighted_F1', 0):.2%}"
+        )
+
+        st.markdown("#### Classification Metrics")
+
+        st.dataframe(
+            metrics_df,
+            use_container_width=True,
+            hide_index=True
+        )
+
+    else:
+        st.info("Classification metrics were not found.")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        if confusion_plot_path.exists():
+
+            st.markdown("#### Confusion Matrix")
+
+            st.image(
+                str(confusion_plot_path),
+                use_container_width=True
+            )
+
+    with col2:
+
+        if importance_plot_path.exists():
+
+            st.markdown("#### Feature Importance")
+
+            st.image(
+                str(importance_plot_path),
+                use_container_width=True
+            )
+
+    if classification_report_path.exists():
+
+        st.markdown("#### Per-Category Performance")
+
+        classification_report_df = pd.read_csv(
+            classification_report_path,
+            index_col=0
+        )
+
+        st.dataframe(
+            classification_report_df,
+            use_container_width=True
+        )
+
+        st.caption(
+            "Sales categories are imbalanced. Accuracy alone "
+            "does not represent performance on rare categories; "
+            "review macro-F1 and each category's recall."
+        )
+
+    # --------------------------------------------------------
+    # SECTION 4: GENERATED OUTPUTS
+    # --------------------------------------------------------
+
+    html("""
+    <div class="section-title">Analysis Summary</div>
+    <div class="section-description">
+        This project combines descriptive analytics, clustering,
+        regression comparison, and classification.
+    </div>
+    """)
+
+    st.markdown(
+        """
+        - **Descriptive analytics:** Identifies historical
+          sales patterns across genres, platforms, publishers,
+          regions, and years.
+        - **K-Means:** Groups games by regional sales patterns.
+        - **Regression:** Compares two approaches to predicting
+          global sales from game metadata.
+        - **Classification:** Evaluates predictions of sales
+          categories and highlights the impact of class imbalance.
+        """
+    )
 
     # --------------------------------------------------------
     # DATASET STATS
