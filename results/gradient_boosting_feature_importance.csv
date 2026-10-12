@@ -1,0 +1,573 @@
+Feature,Importance
+categorical__Publisher_Nintendo,0.35185078759605803
+numerical__Year,0.16867804315352164
+categorical__Genre_Platform,0.047280977905200826
+categorical__Genre_Role-Playing,0.04715220760673667
+categorical__Genre_Shooter,0.041440502181451934
+categorical__Genre_Action,0.031036997303811112
+categorical__Genre_Racing,0.03092728747531603
+categorical__Publisher_Electronic Arts,0.0298420040395467
+categorical__Platform_PS3,0.027671975951432566
+categorical__Publisher_Microsoft Game Studios,0.02376533757477237
+categorical__Publisher_Take-Two Interactive,0.02206296524357348
+categorical__Platform_GB,0.02037259760359954
+categorical__Publisher_Sony Computer Entertainment,0.020073772114701644
+categorical__Platform_X360,0.015017245704539852
+categorical__Publisher_Activision,0.013339668529906243
+categorical__Platform_SNES,0.012785659377436488
+categorical__Platform_Wii,0.011886610849946997
+categorical__Platform_PS4,0.01095380225765165
+categorical__Platform_PS2,0.010175627976829497
+categorical__Genre_Adventure,0.009086471875559382
+categorical__Platform_GBA,0.0066548317383083675
+categorical__Genre_Sports,0.006085002169165675
+categorical__Publisher_Bethesda Softworks,0.006080181836882578
+categorical__Genre_Puzzle,0.005847532929702266
+categorical__Publisher_LucasArts,0.0031195802239866546
+categorical__Genre_Strategy,0.002571987651180179
+categorical__Publisher_Ubisoft,0.002453779502741849
+categorical__Publisher_Sony Computer Entertainment Europe,0.0023194398662653715
+categorical__Publisher_Warner Bros. Interactive Entertainment,0.0021952291333716743
+categorical__Platform_PC,0.001833404352705128
+categorical__Publisher_THQ,0.001551191921993213
+categorical__Genre_Fighting,0.0014857040993099763
+categorical__Genre_Misc,0.001223339109460558
+categorical__Publisher_Square Enix,0.0012217774549236368
+categorical__Platform_GEN,0.0011083845800782296
+categorical__Platform_NES,0.0010791315322632945
+categorical__Publisher_Eidos Interactive,0.0009967937222442392
+categorical__Platform_DS,0.0008569798984601678
+categorical__Publisher_Tecmo Koei,0.0008261315750007431
+categorical__Platform_N64,0.0007718452665151657
+categorical__Platform_GC,0.0007461200786627756
+categorical__Publisher_Enix Corporation,0.0006642491599704781
+categorical__Platform_PS,0.0005371829868859819
+categorical__Publisher_SquareSoft,0.0004758282905365886
+categorical__Platform_2600,0.00037570995047027833
+categorical__Publisher_Disney Interactive Studios,0.00036340365262144673
+categorical__Platform_PSP,0.00033970391374101147
+categorical__Publisher_Capcom,0.00030470223900808113
+categorical__Platform_XB,0.00022446061858862214
+categorical__Publisher_Imagineer,0.00018572594578984626
+categorical__Platform_SAT,9.327550726534372e-05
+categorical__Publisher_Sega,4.180529099641408e-06
+categorical__Platform_PSV,2.6662412083078672e-06
+categorical__Publisher_20th Century Fox Video Games,0.0
+categorical__Publisher_2D Boy,0.0
+categorical__Publisher_3DO,0.0
+categorical__Publisher_49Games,0.0
+categorical__Publisher_505 Games,0.0
+categorical__Publisher_5pb,0.0
+categorical__Publisher_7G//AMES,0.0
+categorical__Publisher_989 Studios,0.0
+categorical__Publisher_AQ Interactive,0.0
+categorical__Publisher_ASC Games,0.0
+categorical__Publisher_ASCII Entertainment,0.0
+categorical__Publisher_ASCII Media Works,0.0
+categorical__Publisher_ASK,0.0
+categorical__Publisher_Abylight,0.0
+categorical__Publisher_Acclaim Entertainment,0.0
+categorical__Publisher_Accolade,0.0
+categorical__Publisher_Ackkstudios,0.0
+categorical__Publisher_Acquire,0.0
+categorical__Publisher_Activision Blizzard,0.0
+categorical__Publisher_Activision Value,0.0
+categorical__Publisher_Adeline Software,0.0
+categorical__Publisher_Aerosoft,0.0
+categorical__Publisher_Agatsuma Entertainment,0.0
+categorical__Publisher_Agetec,0.0
+categorical__Publisher_Aksys Games,0.0
+categorical__Publisher_Alawar Entertainment,0.0
+categorical__Publisher_Alchemist,0.0
+categorical__Publisher_Alternative Software,0.0
+categorical__Publisher_Alvion,0.0
+categorical__Publisher_American Softworks,0.0
+categorical__Publisher_Angel Studios,0.0
+categorical__Publisher_Answer Software,0.0
+categorical__Publisher_Aqua Plus,0.0
+categorical__Publisher_Arc System Works,0.0
+categorical__Publisher_Arena Entertainment,0.0
+categorical__Publisher_Arika,0.0
+categorical__Publisher_ArtDink,0.0
+categorical__Publisher_Aruze Corp,0.0
+categorical__Publisher_Ascaron Entertainment GmbH,0.0
+categorical__Publisher_Asgard,0.0
+categorical__Publisher_Asmik Ace Entertainment,0.0
+categorical__Publisher_Asmik Corp,0.0
+categorical__Publisher_Aspyr,0.0
+categorical__Publisher_Astragon,0.0
+categorical__Publisher_Asylum Entertainment,0.0
+categorical__Publisher_Atari,0.0
+categorical__Publisher_Athena,0.0
+categorical__Publisher_Atlus,0.0
+categorical__Publisher_Avalon Interactive,0.0
+categorical__Publisher_Avanquest,0.0
+categorical__Publisher_Avanquest Software,0.0
+categorical__Publisher_Axela,0.0
+categorical__Publisher_BAM! Entertainment,0.0
+categorical__Publisher_BMG Interactive Entertainment,0.0
+categorical__Publisher_BPS,0.0
+categorical__Publisher_Banpresto,0.0
+categorical__Publisher_Benesse,0.0
+categorical__Publisher_Berkeley,0.0
+categorical__Publisher_Big Ben Interactive,0.0
+categorical__Publisher_Big Fish Games,0.0
+categorical__Publisher_Bigben Interactive,0.0
+categorical__Publisher_Black Bean Games,0.0
+categorical__Publisher_Black Label Games,0.0
+categorical__Publisher_Blast! Entertainment Ltd,0.0
+categorical__Publisher_Blue Byte,0.0
+categorical__Publisher_Bohemia Interactive,0.0
+categorical__Publisher_Bomb,0.0
+categorical__Publisher_Boost On,0.0
+categorical__Publisher_Brash Entertainment,0.0
+categorical__Publisher_Broccoli,0.0
+categorical__Publisher_BushiRoad,0.0
+categorical__Publisher_CBS Electronics,0.0
+categorical__Publisher_CCP,0.0
+categorical__Publisher_CDV Software Entertainment,0.0
+categorical__Publisher_CPG Products,0.0
+categorical__Publisher_Cave,0.0
+categorical__Publisher_ChunSoft,0.0
+categorical__Publisher_City Interactive,0.0
+categorical__Publisher_Cloud Imperium Games Corporation,0.0
+categorical__Publisher_Coconuts Japan,0.0
+categorical__Publisher_Codemasters,0.0
+categorical__Publisher_Codemasters Online,0.0
+categorical__Publisher_CokeM Interactive,0.0
+categorical__Publisher_Coleco,0.0
+categorical__Publisher_Comfort,0.0
+categorical__Publisher_Commseed,0.0
+categorical__Publisher_Compile,0.0
+categorical__Publisher_Compile Heart,0.0
+categorical__Publisher_Conspiracy Entertainment,0.0
+categorical__Publisher_Core Design Ltd.,0.0
+categorical__Publisher_Crave Entertainment,0.0
+categorical__Publisher_Creative Core,0.0
+categorical__Publisher_Crimson Cow,0.0
+categorical__Publisher_Crystal Dynamics,0.0
+categorical__Publisher_Culture Brain,0.0
+categorical__Publisher_Culture Publishers,0.0
+categorical__Publisher_CyberFront,0.0
+categorical__Publisher_Cygames,0.0
+categorical__Publisher_D3Publisher,0.0
+categorical__Publisher_DHM Interactive,0.0
+categorical__Publisher_DSI Games,0.0
+categorical__Publisher_DTP Entertainment,0.0
+categorical__Publisher_Daedalic,0.0
+categorical__Publisher_Daedalic Entertainment,0.0
+categorical__Publisher_Daito,0.0
+categorical__Publisher_Data Age,0.0
+categorical__Publisher_Data Design Interactive,0.0
+categorical__Publisher_Data East,0.0
+categorical__Publisher_Datam Polystar,0.0
+categorical__Publisher_Deep Silver,0.0
+"categorical__Publisher_Destination Software, Inc",0.0
+categorical__Publisher_Destineer,0.0
+categorical__Publisher_Detn8 Games,0.0
+categorical__Publisher_Devolver Digital,0.0
+categorical__Publisher_DigiCube,0.0
+categorical__Publisher_Dorart,0.0
+categorical__Publisher_DreamCatcher Interactive,0.0
+categorical__Publisher_DreamWorks Interactive,0.0
+categorical__Publisher_Dusenberry Martin Racing,0.0
+categorical__Publisher_EA Games,0.0
+categorical__Publisher_EON Digital Entertainment,0.0
+categorical__Publisher_ESP,0.0
+categorical__Publisher_Easy Interactive,0.0
+categorical__Publisher_Ecole,0.0
+categorical__Publisher_Edia,0.0
+categorical__Publisher_Elf,0.0
+categorical__Publisher_Elite,0.0
+categorical__Publisher_Empire Interactive,0.0
+categorical__Publisher_Encore,0.0
+categorical__Publisher_Enjoy Gaming ltd.,0.0
+categorical__Publisher_Enterbrain,0.0
+categorical__Publisher_Epic Games,0.0
+categorical__Publisher_Epoch,0.0
+categorical__Publisher_Ertain,0.0
+categorical__Publisher_Essential Games,0.0
+categorical__Publisher_Evolved Games,0.0
+categorical__Publisher_Excalibur Publishing,0.0
+categorical__Publisher_Experience Inc.,0.0
+categorical__Publisher_Falcom Corporation,0.0
+categorical__Publisher_Fields,0.0
+categorical__Publisher_Flashpoint Games,0.0
+categorical__Publisher_Flight-Plan,0.0
+categorical__Publisher_Focus Home Interactive,0.0
+categorical__Publisher_Focus Multimedia,0.0
+categorical__Publisher_Foreign Media Games,0.0
+categorical__Publisher_Fox Interactive,0.0
+categorical__Publisher_From Software,0.0
+categorical__Publisher_FuRyu,0.0
+categorical__Publisher_FuRyu Corporation,0.0
+categorical__Publisher_Fuji,0.0
+categorical__Publisher_FunSoft,0.0
+categorical__Publisher_Funbox Media,0.0
+categorical__Publisher_Funcom,0.0
+categorical__Publisher_Funsta,0.0
+categorical__Publisher_G.Rev,0.0
+categorical__Publisher_GN Software,0.0
+categorical__Publisher_GOA,0.0
+categorical__Publisher_GSP,0.0
+categorical__Publisher_GT Interactive,0.0
+categorical__Publisher_Gaga,0.0
+categorical__Publisher_Gainax Network Systems,0.0
+categorical__Publisher_Gakken,0.0
+categorical__Publisher_Game Arts,0.0
+categorical__Publisher_Game Factory,0.0
+categorical__Publisher_Game Life,0.0
+categorical__Publisher_GameMill Entertainment,0.0
+categorical__Publisher_GameTek,0.0
+categorical__Publisher_Gamebridge,0.0
+categorical__Publisher_Gamecock,0.0
+categorical__Publisher_Gameloft,0.0
+categorical__Publisher_Gathering of Developers,0.0
+categorical__Publisher_General Entertainment,0.0
+categorical__Publisher_Genki,0.0
+categorical__Publisher_Ghostlight,0.0
+categorical__Publisher_Giga,0.0
+categorical__Publisher_Giza10,0.0
+categorical__Publisher_Global A Entertainment,0.0
+categorical__Publisher_Global Star,0.0
+categorical__Publisher_Gotham Games,0.0
+categorical__Publisher_Graffiti,0.0
+categorical__Publisher_Grand Prix Games,0.0
+categorical__Publisher_Graphsim Entertainment,0.0
+categorical__Publisher_Gremlin Interactive Ltd,0.0
+categorical__Publisher_Griffin International,0.0
+categorical__Publisher_Groove Games,0.0
+categorical__Publisher_GungHo,0.0
+categorical__Publisher_Gust,0.0
+categorical__Publisher_HAL Laboratory,0.0
+categorical__Publisher_HMH Interactive,0.0
+categorical__Publisher_Hackberry,0.0
+categorical__Publisher_Hamster Corporation,0.0
+categorical__Publisher_Happinet,0.0
+categorical__Publisher_Harmonix Music Systems,0.0
+categorical__Publisher_Hasbro Interactive,0.0
+categorical__Publisher_Headup Games,0.0
+categorical__Publisher_Hearty Robin,0.0
+categorical__Publisher_Hect,0.0
+categorical__Publisher_Hello Games,0.0
+categorical__Publisher_Her Interactive,0.0
+categorical__Publisher_Hip Interactive,0.0
+categorical__Publisher_Home Entertainment Suppliers,0.0
+categorical__Publisher_Hudson Entertainment,0.0
+categorical__Publisher_Hudson Soft,0.0
+categorical__Publisher_Human Entertainment,0.0
+categorical__Publisher_HuneX,0.0
+categorical__Publisher_IE Institute,0.0
+categorical__Publisher_ITT Family Games,0.0
+categorical__Publisher_Iceberg Interactive,0.0
+categorical__Publisher_Idea Factory,0.0
+categorical__Publisher_Idea Factory International,0.0
+categorical__Publisher_Ignition Entertainment,0.0
+categorical__Publisher_Illusion Softworks,0.0
+categorical__Publisher_Imadio,0.0
+categorical__Publisher_Image Epoch,0.0
+categorical__Publisher_Imageworks,0.0
+categorical__Publisher_Imagic,0.0
+categorical__Publisher_Imax,0.0
+categorical__Publisher_Indie Games,0.0
+categorical__Publisher_Infogrames,0.0
+categorical__Publisher_Insomniac Games,0.0
+categorical__Publisher_Interchannel,0.0
+categorical__Publisher_Interchannel-Holon,0.0
+categorical__Publisher_Intergrow,0.0
+categorical__Publisher_Interplay,0.0
+categorical__Publisher_Interplay Productions,0.0
+categorical__Publisher_Irem Software Engineering,0.0
+categorical__Publisher_Ivolgamus,0.0
+categorical__Publisher_JVC,0.0
+categorical__Publisher_Jack of All Games,0.0
+categorical__Publisher_Jaleco,0.0
+categorical__Publisher_Jester Interactive,0.0
+categorical__Publisher_JoWood Productions,0.0
+categorical__Publisher_Jorudan,0.0
+categorical__Publisher_Just Flight,0.0
+categorical__Publisher_KID,0.0
+categorical__Publisher_KSS,0.0
+categorical__Publisher_Kadokawa Games,0.0
+categorical__Publisher_Kadokawa Shoten,0.0
+categorical__Publisher_Kaga Create,0.0
+categorical__Publisher_Kalypso Media,0.0
+categorical__Publisher_Kamui,0.0
+categorical__Publisher_Kando Games,0.0
+categorical__Publisher_Karin Entertainment,0.0
+categorical__Publisher_Kemco,0.0
+categorical__Publisher_Kids Station,0.0
+categorical__Publisher_King Records,0.0
+categorical__Publisher_Knowledge Adventure,0.0
+categorical__Publisher_Koch Media,0.0
+categorical__Publisher_Kokopeli Digital Studios,0.0
+categorical__Publisher_Konami Digital Entertainment,0.0
+categorical__Publisher_Kool Kizz,0.0
+categorical__Publisher_LEGO Media,0.0
+categorical__Publisher_LSP Games,0.0
+categorical__Publisher_Laguna,0.0
+categorical__Publisher_Legacy Interactive,0.0
+categorical__Publisher_Level 5,0.0
+categorical__Publisher_Lexicon Entertainment,0.0
+categorical__Publisher_Licensed 4U,0.0
+categorical__Publisher_Lighthouse Interactive,0.0
+categorical__Publisher_Liquid Games,0.0
+categorical__Publisher_Little Orbit,0.0
+categorical__Platform_3DO,0.0
+categorical__Publisher_MC2 Entertainment,0.0
+categorical__Publisher_MTO,0.0
+categorical__Publisher_MTV Games,0.0
+categorical__Publisher_Mad Catz,0.0
+categorical__Publisher_Magical Company,0.0
+categorical__Publisher_Majesco Entertainment,0.0
+categorical__Publisher_Mamba Games,0.0
+categorical__Publisher_Marvel Entertainment,0.0
+categorical__Publisher_Marvelous Entertainment,0.0
+categorical__Publisher_Marvelous Games,0.0
+categorical__Publisher_Marvelous Interactive,0.0
+categorical__Publisher_Mastertronic,0.0
+categorical__Publisher_Mastiff,0.0
+categorical__Publisher_Mattel Interactive,0.0
+categorical__Publisher_Max Five,0.0
+categorical__Publisher_Maximum Family Games,0.0
+categorical__Publisher_Maxis,0.0
+categorical__Publisher_Media Entertainment,0.0
+categorical__Publisher_Media Factory,0.0
+categorical__Publisher_Media Rings,0.0
+categorical__Publisher_Media Works,0.0
+categorical__Publisher_MediaQuest,0.0
+categorical__Publisher_Mentor Interactive,0.0
+categorical__Publisher_Mercury Games,0.0
+categorical__Publisher_Metro 3D,0.0
+categorical__Publisher_Michaelsoft,0.0
+categorical__Publisher_Micro Cabin,0.0
+categorical__Publisher_Microids,0.0
+categorical__Publisher_Microprose,0.0
+categorical__Platform_3DS,0.0
+categorical__Publisher_Midas Interactive Entertainment,0.0
+categorical__Publisher_Midway Games,0.0
+categorical__Publisher_Milestone,0.0
+categorical__Publisher_Milestone S.r.l,0.0
+categorical__Publisher_Milestone S.r.l.,0.0
+categorical__Publisher_Minato Station,0.0
+categorical__Publisher_Mindscape,0.0
+categorical__Publisher_Mirai Shounen,0.0
+categorical__Publisher_Misawa,0.0
+categorical__Publisher_Mitsui,0.0
+categorical__Publisher_Mojang,0.0
+categorical__Publisher_Moss,0.0
+categorical__Publisher_Mud Duck Productions,0.0
+categorical__Publisher_Mumbo Jumbo,0.0
+categorical__Publisher_Mycom,0.0
+categorical__Publisher_Myelin Media,0.0
+categorical__Publisher_NCS,0.0
+categorical__Publisher_NCSoft,0.0
+categorical__Publisher_NDA Productions,0.0
+categorical__Publisher_NEC,0.0
+categorical__Publisher_NEC Interchannel,0.0
+categorical__Publisher_Namco Bandai Games,0.0
+categorical__Publisher_Natsume,0.0
+categorical__Publisher_Naxat Soft,0.0
+categorical__Publisher_Neko Entertainment,0.0
+categorical__Publisher_NetRevo,0.0
+categorical__Publisher_New,0.0
+categorical__Publisher_New World Computing,0.0
+categorical__Publisher_NewKidCo,0.0
+categorical__Publisher_Nexon,0.0
+categorical__Publisher_Nihon Falcom Corporation,0.0
+categorical__Platform_DC,0.0
+categorical__Publisher_Nippon Amuse,0.0
+categorical__Publisher_Nippon Columbia,0.0
+categorical__Publisher_Nippon Ichi Software,0.0
+categorical__Publisher_Nippon Telenet,0.0
+categorical__Publisher_Nitroplus,0.0
+categorical__Publisher_Nobilis,0.0
+categorical__Publisher_Nordcurrent,0.0
+categorical__Publisher_Nordic Games,0.0
+categorical__Publisher_NovaLogic,0.0
+categorical__Publisher_O-Games,0.0
+categorical__Publisher_O3 Entertainment,0.0
+categorical__Publisher_Ocean,0.0
+categorical__Publisher_Office Create,0.0
+categorical__Publisher_Ongakukan,0.0
+categorical__Publisher_Origin Systems,0.0
+categorical__Publisher_Otomate,0.0
+categorical__Publisher_Oxygen Interactive,0.0
+categorical__Publisher_P2 Games,0.0
+categorical__Publisher_PQube,0.0
+categorical__Publisher_Pack-In-Video,0.0
+categorical__Publisher_Paon,0.0
+categorical__Publisher_Paon Corporation,0.0
+categorical__Publisher_Paradox Development,0.0
+categorical__Publisher_Paradox Interactive,0.0
+categorical__Publisher_Parker Bros.,0.0
+categorical__Publisher_Performance Designed Products,0.0
+categorical__Publisher_Phantagram,0.0
+categorical__Publisher_Phenomedia,0.0
+categorical__Publisher_Phoenix Games,0.0
+categorical__Publisher_Piacci,0.0
+categorical__Publisher_Pinnacle,0.0
+categorical__Publisher_Pioneer LDC,0.0
+categorical__Publisher_Play It,0.0
+categorical__Publisher_PlayV,0.0
+categorical__Publisher_Playlogic Game Factory,0.0
+categorical__Publisher_Playmates,0.0
+categorical__Publisher_Playmore,0.0
+categorical__Publisher_Pony Canyon,0.0
+categorical__Publisher_PopCap Games,0.0
+categorical__Publisher_Popcorn Arcade,0.0
+categorical__Publisher_Pow,0.0
+categorical__Publisher_Princess Soft,0.0
+categorical__Publisher_Prototype,0.0
+categorical__Publisher_Psygnosis,0.0
+categorical__Publisher_Quelle,0.0
+categorical__Publisher_Quest,0.0
+categorical__Publisher_Quinrose,0.0
+categorical__Publisher_Quintet,0.0
+categorical__Publisher_RED Entertainment,0.0
+categorical__Publisher_RTL,0.0
+categorical__Publisher_Rage Software,0.0
+categorical__Publisher_Rain Games,0.0
+categorical__Platform_GG,0.0
+categorical__Publisher_Red Orb,0.0
+categorical__Publisher_Red Storm Entertainment,0.0
+categorical__Publisher_RedOctane,0.0
+categorical__Publisher_Reef Entertainment,0.0
+categorical__Publisher_Revolution Software,0.0
+categorical__Publisher_Rising Star Games,0.0
+categorical__Publisher_Riverhillsoft,0.0
+categorical__Publisher_Rocket Company,0.0
+categorical__Publisher_Rondomedia,0.0
+categorical__Publisher_Russel,0.0
+categorical__Publisher_SCS Software,0.0
+categorical__Publisher_SCi,0.0
+categorical__Publisher_SNK,0.0
+categorical__Publisher_SNK Playmore,0.0
+categorical__Publisher_SPS,0.0
+categorical__Publisher_Sammy Corporation,0.0
+categorical__Publisher_Saurus,0.0
+categorical__Publisher_Scholastic Inc.,0.0
+categorical__Publisher_Screenlife,0.0
+categorical__Platform_NG,0.0
+categorical__Publisher_Seta Corporation,0.0
+categorical__Publisher_Seventh Chord,0.0
+categorical__Publisher_Shogakukan,0.0
+categorical__Publisher_Simon & Schuster Interactive,0.0
+categorical__Publisher_Slightly Mad Studios,0.0
+categorical__Publisher_Slitherine Software,0.0
+categorical__Publisher_Societa,0.0
+categorical__Publisher_Sonnet,0.0
+categorical__Platform_PCFX,0.0
+categorical__Publisher_Sony Computer Entertainment America,0.0
+categorical__Platform_SCD,0.0
+categorical__Publisher_Sony Online Entertainment,0.0
+categorical__Publisher_SouthPeak Games,0.0
+categorical__Publisher_Spike,0.0
+categorical__Publisher_Square,0.0
+categorical__Publisher_Square EA,0.0
+categorical__Platform_TG16,0.0
+categorical__Platform_WS,0.0
+categorical__Publisher_Starfish,0.0
+categorical__Publisher_Sting,0.0
+categorical__Publisher_Storm City Games,0.0
+categorical__Publisher_Strategy First,0.0
+categorical__Publisher_Success,0.0
+categorical__Publisher_Summitsoft,0.0
+categorical__Publisher_Sunflowers,0.0
+categorical__Publisher_Sunrise Interactive,0.0
+categorical__Publisher_Sunsoft,0.0
+categorical__Publisher_Sweets,0.0
+categorical__Publisher_Swing! Entertainment,0.0
+categorical__Publisher_Syscom,0.0
+categorical__Publisher_System 3,0.0
+categorical__Publisher_System 3 Arcade Software,0.0
+categorical__Publisher_System Soft,0.0
+categorical__Publisher_T&E Soft,0.0
+categorical__Publisher_TDK Core,0.0
+categorical__Publisher_TDK Mediactive,0.0
+categorical__Publisher_TGL,0.0
+categorical__Platform_WiiU,0.0
+categorical__Publisher_TOHO,0.0
+categorical__Publisher_TYO,0.0
+categorical__Publisher_Taito,0.0
+categorical__Publisher_Takara,0.0
+categorical__Publisher_Takara Tomy,0.0
+categorical__Platform_XOne,0.0
+categorical__Publisher_TalonSoft,0.0
+categorical__Publisher_Team17 Software,0.0
+categorical__Publisher_TechnoSoft,0.0
+categorical__Publisher_Technos Japan Corporation,0.0
+categorical__Genre_Simulation,0.0
+categorical__Publisher_Telegames,0.0
+categorical__Publisher_Rebellion,0.0
+categorical__Publisher_Telstar,0.0
+categorical__Publisher_Tetris Online,0.0
+categorical__Publisher_The Adventure Company,0.0
+categorical__Publisher_The Learning Company,0.0
+categorical__Publisher_Tigervision,0.0
+categorical__Publisher_Time Warner Interactive,0.0
+categorical__Publisher_Titus,0.0
+categorical__Publisher_Tivola,0.0
+categorical__Publisher_Tommo,0.0
+categorical__Publisher_Tomy Corporation,0.0
+categorical__Publisher_TopWare Interactive,0.0
+categorical__Publisher_Touchstone,0.0
+categorical__Publisher_Tradewest,0.0
+categorical__Publisher_Trion Worlds,0.0
+categorical__Publisher_Tru Blu Entertainment,0.0
+categorical__Publisher_Tryfirst,0.0
+categorical__Publisher_Type-Moon,0.0
+categorical__Publisher_U.S. Gold,0.0
+categorical__Publisher_UEP Systems,0.0
+categorical__Publisher_UFO Interactive,0.0
+categorical__Publisher_UIG Entertainment,0.0
+categorical__Publisher_10TACLE Studios,0.0
+categorical__Publisher_Ubisoft Annecy,0.0
+categorical__Publisher_Universal Gamex,0.0
+categorical__Publisher_Universal Interactive,0.0
+categorical__Publisher_Unknown,0.0
+categorical__Publisher_Valcon Games,0.0
+categorical__Publisher_ValuSoft,0.0
+categorical__Publisher_Valve Software,0.0
+categorical__Publisher_Vap,0.0
+categorical__Publisher_Vatical Entertainment,0.0
+categorical__Publisher_Vic Tokai,0.0
+categorical__Publisher_Victor Interactive,0.0
+categorical__Publisher_Video System,0.0
+categorical__Publisher_Views,0.0
+categorical__Publisher_Vir2L Studios,0.0
+categorical__Publisher_Virgin Interactive,0.0
+categorical__Publisher_Virtual Play Games,0.0
+categorical__Publisher_Visco,0.0
+categorical__Publisher_Vivendi Games,0.0
+categorical__Publisher_Wanadoo,0.0
+categorical__Publisher_Warashi,0.0
+categorical__Publisher_Wargaming.net,0.0
+categorical__Publisher_1C Company,0.0
+categorical__Publisher_Warp,0.0
+categorical__Publisher_WayForward Technologies,0.0
+categorical__Publisher_Westwood Studios,0.0
+categorical__Publisher_White Park Bay Software,0.0
+categorical__Publisher_Wizard Video Games,0.0
+categorical__Publisher_XS Games,0.0
+categorical__Publisher_Xicat Interactive,0.0
+categorical__Publisher_Xplosiv,0.0
+categorical__Publisher_Xseed Games,0.0
+categorical__Publisher_Yacht Club Games,0.0
+categorical__Publisher_Yamasa Entertainment,0.0
+categorical__Publisher_Yeti,0.0
+categorical__Publisher_Yuke's,0.0
+categorical__Publisher_Yumedia,0.0
+categorical__Publisher_Zenrin,0.0
+categorical__Publisher_Zoo Digital Publishing,0.0
+categorical__Publisher_Zoo Games,0.0
+categorical__Publisher_Zushi Games,0.0
+categorical__Publisher_bitComposer Games,0.0
+categorical__Publisher_dramatic create,0.0
+categorical__Publisher_fonfun,0.0
+categorical__Publisher_iWin,0.0
+categorical__Publisher_id Software,0.0
+categorical__Publisher_imageepoch Inc.,0.0
+"categorical__Publisher_mixi, Inc",0.0
+categorical__Publisher_responDESIGN,0.0
+categorical__Publisher_Telltale Games,0.0
