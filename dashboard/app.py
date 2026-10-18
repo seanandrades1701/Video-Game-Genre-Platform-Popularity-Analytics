@@ -1652,24 +1652,86 @@ elif page == "Dataset":
 
     html("""
     <div class="hero-section">
-
-        <div class="hero-eyebrow">
-            DATA EXPLORER
-        </div>
-
+        <div class="hero-eyebrow">DATA EXPLORER</div>
         <h1 class="hero-title">
             Dataset <span class="accent">Explorer</span>
         </h1>
-
         <div class="hero-description">
             Browse the cleaned and transformed video game sales dataset
             used throughout this analysis.
         </div>
-
     </div>
     """)
 
+    # DATASET SUMMARY CARDS
+    c1, c2, c3, c4 = st.columns(4)
 
+    with c1:
+        html(f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Rows</div>
+            <div class="kpi-value">{len(filtered_df):,}</div>
+            <div class="kpi-sub">Filtered records</div>
+        </div>
+        """)
+
+    with c2:
+        html(f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Columns</div>
+            <div class="kpi-value">{len(filtered_df.columns)}</div>
+            <div class="kpi-sub">Dataset attributes</div>
+        </div>
+        """)
+
+    with c3:
+        html(f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Genres</div>
+            <div class="kpi-value">{filtered_df["Genre"].nunique()}</div>
+            <div class="kpi-sub">Unique categories</div>
+        </div>
+        """)
+
+    with c4:
+        html(f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Platforms</div>
+            <div class="kpi-value">{filtered_df["Platform"].nunique()}</div>
+            <div class="kpi-sub">Unique platforms</div>
+        </div>
+        """)
+
+    # DATASET RECORDS
+    html("""
+    <div class="section-title">Records</div>
+    <div class="section-description">
+        Current dataset after applying the selected filters.
+    </div>
+    """)
+
+    if filtered_df.empty:
+        st.warning(
+            "No records match the current filters. "
+            "Change the Genre or Platform selections in the sidebar."
+        )
+    else:
+        st.dataframe(
+            filtered_df,
+            use_container_width=True,
+            height=600,
+            hide_index=True
+        )
+
+    # DOWNLOAD FILTERED DATASET
+    csv_data = filtered_df.to_csv(index=False).encode("utf-8")
+
+    st.download_button(
+        label="Download Filtered Dataset",
+        data=csv_data,
+        file_name="vgsales_filtered.csv",
+        mime="text/csv"
+    )
 
 
 # ============================================================
@@ -1716,7 +1778,6 @@ elif page == "Machine Learning":
     )
 
     if cluster_profile_path.exists():
-
         cluster_profiles = pd.read_csv(cluster_profile_path)
 
         st.dataframe(
@@ -1724,34 +1785,33 @@ elif page == "Machine Learning":
             use_container_width=True,
             hide_index=True
         )
-
     else:
         st.info("Cluster profiles have not been generated yet.")
 
     col1, col2 = st.columns(2)
 
     with col1:
+        st.markdown("#### Cluster Evaluation")
 
         if cluster_eval_path.exists():
-
-            st.markdown("#### Cluster Evaluation")
-
             st.dataframe(
                 pd.read_csv(cluster_eval_path),
                 use_container_width=True,
                 hide_index=True
             )
+        else:
+            st.info("Clustering evaluation results were not found.")
 
     with col2:
+        st.markdown("#### Cluster Visualization")
 
         if cluster_plot_path.exists():
-
-            st.markdown("#### Cluster Visualization")
-
             st.image(
                 str(cluster_plot_path),
                 use_container_width=True
             )
+        else:
+            st.info("Cluster visualization was not found.")
 
     # --------------------------------------------------------
     # SECTION 2: REGRESSION MODEL COMPARISON
@@ -1781,7 +1841,6 @@ elif page == "Machine Learning":
     )
 
     if regression_path.exists():
-
         regression_df = pd.read_csv(regression_path)
 
         st.dataframe(
@@ -1791,32 +1850,31 @@ elif page == "Machine Learning":
         )
 
         st.caption(
-            "Random Forest performed slightly better on the "
-            "current test split, but both models have limited "
-            "predictive performance."
+            "Random Forest performed slightly better on the current "
+            "test split, but both models have limited predictive performance."
         )
 
         col1, col2 = st.columns(2)
 
         with col1:
-
             if error_plot_path.exists():
-
                 st.image(
                     str(error_plot_path),
                     caption="MAE and RMSE Comparison",
                     use_container_width=True
                 )
+            else:
+                st.info("Regression error comparison chart was not found.")
 
         with col2:
-
             if r2_plot_path.exists():
-
                 st.image(
                     str(r2_plot_path),
                     caption="R² Comparison",
                     use_container_width=True
                 )
+            else:
+                st.info("R² comparison chart was not found.")
 
     else:
         st.info("Regression comparison results were not found.")
@@ -1855,35 +1913,34 @@ elif page == "Machine Learning":
 
     if classification_metrics_path.exists():
 
-        metrics_df = pd.read_csv(
-            classification_metrics_path
-        )
+        metrics_df = pd.read_csv(classification_metrics_path)
 
-        metric_values = dict(
-            zip(metrics_df["Metric"], metrics_df["Value"])
-        )
+        if {"Metric", "Value"}.issubset(metrics_df.columns):
+            metric_values = dict(
+                zip(metrics_df["Metric"], metrics_df["Value"])
+            )
 
-        c1, c2, c3, c4 = st.columns(4)
+            c1, c2, c3, c4 = st.columns(4)
 
-        c1.metric(
-            "Accuracy",
-            f"{metric_values.get('Accuracy', 0):.2%}"
-        )
+            c1.metric(
+                "Accuracy",
+                f"{metric_values.get('Accuracy', 0):.2%}"
+            )
 
-        c2.metric(
-            "Macro F1",
-            f"{metric_values.get('Macro_F1', 0):.2%}"
-        )
+            c2.metric(
+                "Macro F1",
+                f"{metric_values.get('Macro_F1', 0):.2%}"
+            )
 
-        c3.metric(
-            "Macro Recall",
-            f"{metric_values.get('Macro_Recall', 0):.2%}"
-        )
+            c3.metric(
+                "Macro Recall",
+                f"{metric_values.get('Macro_Recall', 0):.2%}"
+            )
 
-        c4.metric(
-            "Weighted F1",
-            f"{metric_values.get('Weighted_F1', 0):.2%}"
-        )
+            c4.metric(
+                "Weighted F1",
+                f"{metric_values.get('Weighted_F1', 0):.2%}"
+            )
 
         st.markdown("#### Classification Metrics")
 
@@ -1899,26 +1956,26 @@ elif page == "Machine Learning":
     col1, col2 = st.columns(2)
 
     with col1:
+        st.markdown("#### Confusion Matrix")
 
         if confusion_plot_path.exists():
-
-            st.markdown("#### Confusion Matrix")
-
             st.image(
                 str(confusion_plot_path),
                 use_container_width=True
             )
+        else:
+            st.info("Classification confusion matrix was not found.")
 
     with col2:
+        st.markdown("#### Feature Importance")
 
         if importance_plot_path.exists():
-
-            st.markdown("#### Feature Importance")
-
             st.image(
                 str(importance_plot_path),
                 use_container_width=True
             )
+        else:
+            st.info("Feature-importance chart was not found.")
 
     if classification_report_path.exists():
 
@@ -1935,13 +1992,13 @@ elif page == "Machine Learning":
         )
 
         st.caption(
-            "Sales categories are imbalanced. Accuracy alone "
-            "does not represent performance on rare categories; "
-            "review macro-F1 and each category's recall."
+            "Sales categories are imbalanced. Accuracy alone does not "
+            "represent performance on rare categories; review macro-F1 "
+            "and each category's recall."
         )
 
     # --------------------------------------------------------
-    # SECTION 4: GENERATED OUTPUTS
+    # MACHINE LEARNING SUMMARY
     # --------------------------------------------------------
 
     html("""
@@ -1952,140 +2009,15 @@ elif page == "Machine Learning":
     </div>
     """)
 
-    st.markdown(
-        """
-        - **Descriptive analytics:** Identifies historical
-          sales patterns across genres, platforms, publishers,
-          regions, and years.
-        - **K-Means:** Groups games by regional sales patterns.
-        - **Regression:** Compares two approaches to predicting
-          global sales from game metadata.
-        - **Classification:** Evaluates predictions of sales
-          categories and highlights the impact of class imbalance.
-        """
-    )
-
-    # --------------------------------------------------------
-    # DATASET STATS
-    # --------------------------------------------------------
-
-    c1, c2, c3, c4 = st.columns(4)
-
-    with c1:
-
-        html(f"""
-        <div class="kpi-card">
-
-            <div class="kpi-label">
-                Rows
-            </div>
-
-            <div class="kpi-value">
-                {len(filtered_df):,}
-            </div>
-
-            <div class="kpi-sub">
-                Filtered records
-            </div>
-
-        </div>
-        """)
-
-    with c2:
-
-        html(f"""
-        <div class="kpi-card">
-
-            <div class="kpi-label">
-                Columns
-            </div>
-
-            <div class="kpi-value">
-                {len(filtered_df.columns)}
-            </div>
-
-            <div class="kpi-sub">
-                Dataset attributes
-            </div>
-
-        </div>
-        """)
-
-    with c3:
-
-        html(f"""
-        <div class="kpi-card">
-
-            <div class="kpi-label">
-                Genres
-            </div>
-
-            <div class="kpi-value">
-                {filtered_df["Genre"].nunique()}
-            </div>
-
-            <div class="kpi-sub">
-                Unique categories
-            </div>
-
-        </div>
-        """)
-
-    with c4:
-
-        html(f"""
-        <div class="kpi-card">
-
-            <div class="kpi-label">
-                Platforms
-            </div>
-
-            <div class="kpi-value">
-                {filtered_df["Platform"].nunique()}
-            </div>
-
-            <div class="kpi-sub">
-                Unique platforms
-            </div>
-
-        </div>
-        """)
-
-    # --------------------------------------------------------
-    # TABLE
-    # --------------------------------------------------------
-
-    html("""
-    <div class="section-title">
-        Records
-    </div>
-
-    <div class="section-description">
-        Current dataset after applying the selected filters.
-    </div>
+    st.markdown("""
+    - **Descriptive analytics:** Identifies historical sales patterns
+      across genres, platforms, publishers, regions, and years.
+    - **K-Means:** Groups games by regional sales patterns.
+    - **Regression:** Compares two approaches to predicting global sales
+      from game metadata.
+    - **Classification:** Evaluates sales category predictions and
+      highlights the impact of class imbalance.
     """)
-
-    st.dataframe(
-        filtered_df,
-        use_container_width=True,
-        height=600,
-        hide_index=True
-    )
-
-    # --------------------------------------------------------
-    # DOWNLOAD
-    # --------------------------------------------------------
-
-    csv_data = filtered_df.to_csv(
-        index=False
-    ).encode("utf-8")
-
-    st.download_button(
-        label="Download Filtered Dataset",
-        data=csv_data,
-        file_name="vgsales_filtered.csv",
-        mime="text/csv"
-    )
 
 
 # ============================================================
