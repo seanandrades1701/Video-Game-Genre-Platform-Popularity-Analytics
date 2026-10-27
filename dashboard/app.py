@@ -1847,11 +1847,6 @@ elif page == "Machine Learning":
                     use_container_width=True
                 )
 
-        st.info(
-            "Lower MAE and RMSE indicate smaller prediction errors. "
-            "R² measures how much variation the model explains; a low "
-            "R² means the model has limited predictive power."
-        )
 
     else:
         st.warning(
