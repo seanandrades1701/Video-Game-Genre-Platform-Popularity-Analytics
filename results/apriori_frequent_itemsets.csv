@@ -1,0 +1,189 @@
+support,itemsets
+0.8736725799521208,Sales=Low
+0.5636854705051869,Decade=2000
+0.499048554416549,Decade=2000 + Sales=Low
+0.3150819470873488,Decade=2010
+0.2801546866367933,Decade=2010 + Sales=Low
+0.1995580381805905,Genre=Action
+0.17383831563439936,Genre=Action + Sales=Low
+0.14142778221103677,Genre=Sports
+0.1308084218280032,Platform=DS
+0.1305628874838868,Platform=PS2
+0.1278006261125775,Decade=2000 + Platform=PS2
+0.12301270640230802,Genre=Sports + Sales=Low
+0.12196918543981339,Platform=DS + Sales=Low
+0.11368240132588546,Sales=Medium
+0.11092013995457614,Platform=PS2 + Sales=Low
+0.10858756368547051,Decade=1990
+0.10815787858326684,Decade=2000 + Platform=PS2 + Sales=Low
+0.10349272604505555,Genre=Misc
+0.09925725860904794,Decade=2000 + Platform=DS
+0.09729298385611687,Decade=2000 + Genre=Action
+0.09318028359216746,Genre=Misc + Sales=Low
+0.09176846111349825,Decade=2000 + Platform=DS + Sales=Low
+0.09023387146277086,Genre=Role-Playing
+0.08826959670983979,Decade=2010 + Genre=Action
+0.08771714443557793,Decade=1990 + Sales=Low
+0.08636670554293782,Decade=2000 + Genre=Sports
+0.08483211589221042,Decade=2000 + Genre=Action + Sales=Low
+0.08219262169295931,Publisher=Electronic Arts
+0.08004419618194095,Platform=PS3
+0.07918482597753361,Platform=Wii
+0.07869375728930084,Genre=Shooter
+0.07820268860106808,Genre=Adventure
+0.07801853784298078,Decade=2010 + Genre=Action + Sales=Low
+0.0777730034988644,Genre=Role-Playing + Sales=Low
+0.07617703026210791,Decade=2000 + Genre=Sports + Sales=Low
+0.07574734515990424,Genre=Adventure + Sales=Low
+0.07574734515990424,Platform=X360
+0.07519489288564238,Genre=Racing
+0.07347615247682769,Platform=PSP
+0.07298508378859493,Platform=PS
+0.07003867165919833,Platform=PSP + Sales=Low
+0.06954760297096556,Platform=Wii + Sales=Low
+0.06494383401878338,Platform=PS3 + Sales=Low
+0.06408446381437603,Genre=Racing + Sales=Low
+0.06340924436805598,Genre=Shooter + Sales=Low
+0.06150635320115401,Publisher=Electronic Arts + Sales=Low
+0.06132220244306672,Decade=2000 + Genre=Misc
+0.06132220244306672,Platform=X360 + Sales=Low
+0.060462832238659385,Platform=PS + Sales=Low
+0.05929654410410656,Publisher=Activision
+0.05917377693204837,Decade=2000 + Sales=Medium
+0.057577803695291876,Platform=PC
+0.05696396783500092,Publisher=Namco Bandai Games
+0.05635013197470996,Publisher=Ubisoft
+0.05622736480265177,Decade=1990 + Platform=PS
+0.05475415873795347,Decade=2000 + Genre=Misc + Sales=Low
+0.054692775151924375,Decade=2000 + Publisher=Electronic Arts
+0.0543858572217789,Decade=2010 + Platform=PS3
+0.05371063777545884,Genre=Platform
+0.05371063777545884,Publisher=Namco Bandai Games + Sales=Low
+0.05340371984531336,Platform=PC + Sales=Low
+0.05205328095267325,Genre=Simulation
+0.0514394450923823,Decade=2000 + Platform=Wii
+0.05131667792032411,Genre=Fighting
+0.05051869130194586,Publisher=Konami Digital Entertainment
+0.04953655392548033,Publisher=Activision + Sales=Low
+0.04929101958136394,Decade=2000 + Platform=XB
+0.04929101958136394,Platform=XB
+0.04916825240930575,Decade=2000 + Genre=Racing
+0.04916825240930575,Publisher=Ubisoft + Sales=Low
+0.04824749861886932,Decade=2000 + Platform=GBA
+0.04824749861886932,Platform=GBA
+0.04677429255417102,Publisher=Konami Digital Entertainment + Sales=Low
+0.04634460745196734,Genre=Simulation + Sales=Low
+0.04603768952182186,Platform=XB + Sales=Low
+0.04603768952182186,Decade=2000 + Platform=XB + Sales=Low
+0.045669388005647286,Decade=1990 + Platform=PS + Sales=Low
+0.04530108648947272,Decade=2010 + Platform=PS3 + Sales=Low
+0.04493278497329814,Decade=2000 + Genre=Role-Playing
+0.04462586704315266,Decade=2000 + Platform=Wii + Sales=Low
+0.04419618194094899,Decade=2000 + Genre=Shooter
+0.044073414768890797,Platform=GBA + Sales=Low
+0.044073414768890797,Decade=2000 + Platform=GBA + Sales=Low
+0.04376649683874532,Genre=Fighting + Sales=Low
+0.04370511325271623,Publisher=THQ
+0.04284574304830888,Decade=2000 + Genre=Racing + Sales=Low
+0.042784359462279785,Decade=2000 + Platform=PSP
+0.04272297587625069,Publisher=Nintendo
+0.04210914001595973,Decade=2000 + Publisher=Electronic Arts + Sales=Low
+0.04186360567184335,Publisher=Sony Computer Entertainment
+0.04180222208581425,Decade=2010 + Platform=X360
+0.04180222208581425,Genre=Platform + Sales=Low
+0.041127002639494196,Genre=Strategy
+0.039653796574795896,Decade=2000 + Platform=PSP + Sales=Low
+0.03940826223067952,Decade=2000 + Genre=Role-Playing + Sales=Low
+0.03916272788656313,Genre=Strategy + Sales=Low
+0.03885580995641765,Decade=2000 + Genre=Adventure
+0.03879442637038856,Publisher=Sega
+0.03830335768215579,Publisher=THQ + Sales=Low
+0.03750537106377755,Decade=2000 + Genre=Adventure + Sales=Low
+0.03725983671966116,Decade=2000 + Genre=Shooter + Sales=Low
+0.03615493217113744,Decade=2000 + Publisher=Ubisoft
+0.035050027622613715,Decade=2000 + Publisher=Activision
+0.03498864403658462,Decade=2010 + Genre=Sports
+0.03498864403658462,Genre=Puzzle
+0.03480449327849733,Decade=2000 + Genre=Platform
+0.03455895893438095,Decade=2010 + Genre=Misc
+0.03425204100423547,Publisher=Sega + Sales=Low
+0.03419065741820637,Decade=2010 + Genre=Role-Playing
+0.03400650666011908,Genre=Sports + Publisher=Electronic Arts
+0.03394512307408999,Decade=2000 + Platform=X360
+0.03388373948806089,Decade=2000 + Genre=Simulation
+0.033638205143944507,Decade=2010 + Platform=X360 + Sales=Low
+0.03351543797188632,Decade=2000 + Publisher=THQ
+0.03326990362776994,Decade=2010 + Genre=Adventure
+0.03326990362776994,Decade=2000 + Platform=GC
+0.03326990362776994,Platform=GC
+0.03284021852556626,Decade=2010 + Genre=Adventure + Sales=Low
+0.03271745135350807,Publisher=Sony Computer Entertainment + Sales=Low
+0.03241053342336259,Decade=2010 + Genre=Misc + Sales=Low
+0.03241053342336259,Decade=2000 + Publisher=Ubisoft + Sales=Low
+0.03155116321895525,Genre=Puzzle + Sales=Low
+0.03142839604689706,Decade=2010 + Platform=DS
+0.0308145601866061,Decade=2010 + Sales=Medium
+0.03069179301454791,Decade=2010 + Platform=PSP
+0.03069179301454791,Decade=2000 + Publisher=Konami Digital Entertainment
+0.030630409428518815,Decade=2010 + Platform=3DS
+0.030630409428518815,Platform=3DS
+0.030446258670431527,Decade=2000 + Platform=GC + Sales=Low
+0.030446258670431527,Platform=GC + Sales=Low
+0.03038487508440243,Decade=2010 + Platform=PSP + Sales=Low
+0.030323491498373337,Decade=2010 + Genre=Sports + Sales=Low
+0.030200724326315143,Decade=2000 + Genre=Simulation + Sales=Low
+0.030077957154256953,Decade=2010 + Platform=DS + Sales=Low
+0.02995518998219876,Decade=2010 + Genre=Role-Playing + Sales=Low
+0.029586888466024187,Decade=2000 + Publisher=THQ + Sales=Low
+0.029525504879995088,Decade=2000 + Genre=Platform + Sales=Low
+0.02909581977779142,Decade=2000 + Publisher=Activision + Sales=Low
+0.02891166901970413,Decade=2010 + Publisher=Namco Bandai Games
+0.028420600331471365,Decade=2000 + Publisher=Konami Digital Entertainment + Sales=Low
+0.028052298815296788,Decade=2010 + Publisher=Namco Bandai Games + Sales=Low
+0.027990915229267693,Decade=2010 + Platform=PC
+0.02774538088515131,Decade=2010 + Platform=3DS + Sales=Low
+0.02774538088515131,Platform=3DS + Sales=Low
+0.02774538088515131,Decade=2010 + Platform=Wii
+0.027683997299122215,Decade=2000 + Platform=X360 + Sales=Low
+0.027131545024860353,Decade=2000 + Genre=Fighting
+0.027131545024860353,Decade=2000 + Platform=PC
+0.0264563255785403,Decade=2010 + Platform=PC + Sales=Low
+0.025781106132220243,Genre=Sports + Publisher=Electronic Arts + Sales=Low
+0.025658338960162053,Decade=2000 + Platform=PC + Sales=Low
+0.025658338960162053,Decade=2000 + Platform=PS3
+0.025290037443987477,Publisher=Take-Two Interactive
+0.025167270271929287,Decade=2010 + Platform=PSV
+0.025167270271929287,Platform=PSV
+0.024921735927812903,Decade=2010 + Platform=Wii + Sales=Low
+0.02467620158369652,Decade=2010 + Platform=PSV + Sales=Low
+0.02467620158369652,Platform=PSV + Sales=Low
+0.02424651648149285,Decade=2010 + Genre=Shooter
+0.024000982137376465,Genre=Sports + Platform=PS2
+0.023878214965318275,Genre=Misc + Platform=DS
+0.023571297035172793,Decade=2000 + Publisher=Sony Computer Entertainment
+0.023448529863114603,Genre=Action + Sales=Medium
+0.02332576269105641,Decade=2000 + Genre=Strategy
+0.02320299551899822,Decade=2000 + Genre=Fighting + Sales=Low
+0.023141611932969125,Decade=2000 + Genre=Sports + Platform=PS2
+0.023080228346940027,Publisher=Capcom
+0.02289607758885274,Genre=Action + Platform=PS3
+0.02289607758885274,Decade=2000 + Genre=Sports + Publisher=Electronic Arts
+0.02265054324473636,Decade=2000 + Publisher=Namco Bandai Games
+0.022589159658707263,Decade=2000 + Genre=Strategy + Sales=Low
+0.02246639248664907,Genre=Misc + Platform=DS + Sales=Low
+0.022405008900619975,Decade=2000 + Genre=Puzzle
+0.021975323798416303,Publisher=Nintendo + Sales=Low
+0.02191394021238721,Decade=2000 + Publisher=Sega
+0.021791173040329015,Decade=2000 + Publisher=Nintendo
+0.021484255110183537,Decade=2000 + Publisher=Namco Bandai Games + Sales=Low
+0.021300104352096248,Publisher=Atari
+0.02117733718003806,Genre=Action + Platform=PS2
+0.02087041924989258,Decade=2010 + Publisher=Electronic Arts
+0.02080903566386348,Decade=2010 + Publisher=Activision
+0.02080903566386348,Decade=2000 + Genre=Action + Platform=PS2
+0.020747652077834387,Decade=2000 + Genre=Puzzle + Sales=Low
+0.020747652077834387,Publisher=Tecmo Koei
+0.020624884905776197,Platform=PS4
+0.020624884905776197,Decade=2010 + Platform=PS4
+0.020563501319747098,Genre=Action + Platform=DS
+0.020379350561659813,Publisher=Tecmo Koei + Sales=Low
