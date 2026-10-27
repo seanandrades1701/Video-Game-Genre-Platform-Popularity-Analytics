@@ -1869,18 +1869,8 @@ elif page == "Machine Learning":
     <div class="section-title">02 · Interactive Sales Estimator</div>
     <div class="section-description">
         Estimate historical sales potential from game metadata.
-        The estimate is model-based, not a guaranteed future result.
     </div>
     """)
-
-    st.warning(
-        "Forecast limitation: this dataset contains one aggregate sales "
-        "record per game, not monthly or yearly sales histories. It cannot "
-        "validate a genuine 6-month, 1-year, 3-year, 5-year, or 10-year "
-        "forecast. The model below estimates total historical sales for "
-        "similar games. The selected duration is retained as planning "
-        "context and does not change the prediction."
-    )
 
     categorical_features = ["Platform", "Genre", "Publisher"]
     numeric_features = ["Year"]
@@ -1896,11 +1886,7 @@ elif page == "Machine Learning":
 
     @st.cache_resource
     def train_sales_estimators(dataframe):
-        """
-        Train estimators on the available historical dataset.
-        These models estimate aggregate historical sales, not future
-        sales over a selected time interval.
-        """
+        
         trained_models = {}
 
         required = model_features + list(region_columns.values())
@@ -2105,14 +2091,6 @@ elif page == "Machine Learning":
                     f"historical dataset."
                 )
 
-                st.info(
-                    "This is an exploratory estimate, not a validated "
-                    "forecast for the selected duration. The model is "
-                    "trained on the full historical dataset and has not "
-                    "been evaluated here on a separate holdout set. "
-                    "It does not generate a monthly/yearly sales curve "
-                    "or a cumulative future-sales forecast."
-                )
 
                 # Show similar historical records as context.
                 same_metadata = df[
@@ -2126,10 +2104,6 @@ elif page == "Machine Learning":
 
                     st.markdown("#### Historical comparison records")
 
-                    st.caption(
-                        "These records provide context; they are not "
-                        "future observations for the proposed game."
-                    )
 
                     context_table = (
                         same_metadata[
@@ -2438,8 +2412,6 @@ elif page == "Machine Learning":
     - **Researchers:** Generate hypotheses for further analysis and
       validate them against additional datasets.
 
-    These findings should be treated as exploratory evidence rather than
-    causal explanations or guarantees of commercial success.
     """)
 
 
