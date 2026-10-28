@@ -2056,6 +2056,34 @@ elif page == "Machine Learning":
 
                 estimated_sales = max(0.0, estimated_sales)
 
+
+                # ------------------------------------------------
+                # DURATION-BASED SCENARIO
+                # ------------------------------------------------
+                # Illustrative assumptions, NOT learned from data.
+                # Adjust these assumptions for scenario analysis.
+
+                duration_years = {
+                    "6 months": 0.5,
+                    "1 year": 1,
+                    "3 years": 3,
+                    "5 years": 5,
+                    "10 years": 10,
+                }
+
+                # Assumed annual growth rate for scenario modelling.
+                annual_growth_rate = 0.05  # 5% illustrative assumption
+
+                years = duration_years[duration_input]
+
+                scenario_sales = estimated_sales * (
+                    (1 + annual_growth_rate) ** years
+                )
+
+                # Difference from the baseline estimate
+                scenario_change = scenario_sales - estimated_sales
+
+
                 st.markdown("#### Estimation result")
 
                 st.caption(
@@ -2065,11 +2093,23 @@ elif page == "Machine Learning":
 
                 result_col1, result_col2 = st.columns(2)
 
+                
                 with result_col1:
                     st.metric(
-                        "Estimated aggregate sales",
+                        "Baseline historical-sales estimate",
                         f"{estimated_sales:.2f} million"
                     )
+
+                with result_col2:
+                    st.metric(
+                        f"{duration_input} scenario estimate",
+                        f"{scenario_sales:.2f} million",
+                        delta=f"{scenario_change:+.2f} million"
+                    )
+
+              
+
+
 
                 with result_col2:
                     st.metric(
